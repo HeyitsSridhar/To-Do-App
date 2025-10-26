@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    padding: 50px;
+    padding-bottom: 30px;
+  }
+  
+  .to-do-app {
+    background: #fff;
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 25px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  }
+  
+  .to-do-app h1{
+    color: #002765;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .to-do-app img{
+    width: 40px;
+    margin-left: 10px;
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: rgb(220, 206, 206);
+    border-radius: 50px;
+  }
+  
+  #input-box {
+    flex: 1;
+    padding: 10px;
+    outline: none;
+    background-color: rgb(220, 206, 206);
+    border: none;
+    border-radius: 50px;
+    
+  }
+  
+  #add {
+    background-color: #2575fc;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 40px;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  h2{
+    color: #555;
+    padding-bottom: 10px;
+  }
+  ul li {
+    list-style: none;
+    font-size: 17px;
+    padding: 10px 20px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    font-family:'Times New Roman', Times, serif
+  }
+  
+  ul li.checked {
+    color: #059931;
+    text-decoration: line-through;
+  }
+  
+  ul li span {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    font-size: 22px;
+    color: #555;
+    cursor: pointer;
+  }
+  
+  ul li span:hover {
+    color: red;
+  }
+  
